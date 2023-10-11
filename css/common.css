@@ -19,7 +19,7 @@ body {
 	color: #AEFB2A !important;
 }
 .primary-bg{
-	background: #AEFB2A;
+	background: #aefb2a;
 }
 ul li {
   list-style: none;
@@ -67,6 +67,83 @@ header{
 	display: flex;
 	align-items: center;
 }
+/* footer  */
+footer{
+	background: #fff;
+	padding: 35px 0px;
+	margin-top: 35px;
+}
+.footer-logo{
+	width: 200px;
+	margin-bottom: 5px;
+}
+.footer-under-logo-txt{
+	font-size: 15px;
+	font-weight: 600;
+}
+.footer-icon-box i{
+	color: #000000;
+	font-size: 25px;
+	margin: 0px 15px 0px 0px;
+}
+.footer-icon-box{
+	margin: 20px 0px;
+}
+.box-form-footer{
+	background: #000;
+	padding: 20px;
+}
+.footer-box-inner ul li .footer-txt{
+	font-weight: 600;
+}
+.footer-box-inner ul li{
+	margin-bottom: 8px;
+}
+.get-in-touch-txt{
+	padding-bottom: 10px;
+}
+.sub-get-txt{
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.box-form-footer .form-control{
+	background: #000 !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
+.box-form-footer .form-control::placeholder{
+	font-size: 14px;
+}
+.border-line{
+	border: 1px solid #c4c0c0;
+}
+.copy-dv{
+	padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* fade in animation  */
 .fade-in-element {
   opacity: 0;

@@ -181,21 +181,156 @@
 	font-weight: 600;
 }
 .product-sub-txt-explore{
-	padding: 20px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
 }
+.slider-main-projects .item{
+	margin: 0px 20px;
+}
+.slider-main-projects .slider{
+	margin: 20px 0px;
+}
+.slider-main-projects .service-img-box{
+	position: relative;
+}
+.project-sub-name{
+	font-size: 13px;
+}
+.details-project-name{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.project-slider-name{
+	line-height: 1.0;
+	font-size: 20px;
+	margin-bottom: 7px !important;
+}
+.slider-main-projects .slick-prev {
 
+}
+.btn-round-nxt{
+	background: #fff;
+	border-radius: 50%;
+	padding: 10px 17px !important;
+	color: #000;
+}
+.btn-round-nxt i{
+	font-size: 25px !important;
+}
+.slider-main-projects{
+	position: relative !important;
+}
+.nxt-btns{
+	position: absolute;
+	right: 50px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.prev-btns{
+	position: absolute;
+	left: 80px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.testimonial-main{
+	border: 1px solid #fff;
+	width: 100%;
+	border-radius: 10px;
+	margin: 60px 0px 20px 0px;
+	display: flex;
+}
+.left-testimonial{
+	width: 40%;
+	padding: 20px;
+}
+.right-testimonial{
+	width: 60%;
+	background: #ffff;
+	padding: 20px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	position: relative;
+}
+.logo-testimonial{
+	width: 70px;
+	display: table;
+	margin: auto;
+	padding-top: 20px;
+}
+.testimonial-content{
+	font-weight: 600;
+	padding: 20px 0px 0px 0px;
+}
+.testi-name{
+	font-weight: 600;
+}
+.testi-details{
 
-
-
-
-
-
-
-
-
-
-
-
+}
+.details-testi-content{
+	padding-top: 30px;
+}
+.right-testimonial .ri-arrow-left-s-line{
+	position: absolute;
+	left: 30px;
+	font-size: 30px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.right-testimonial .ri-arrow-right-s-line{
+	position: absolute;
+	right: 0px;
+	font-size: 30px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.latest-sub-txt{
+	padding-top: 20px;
+}
+.latest-blog-main-dv{
+	margin: 60px 0px 30px 0px;
+}
+.blog-img{
+	border-radius: 20px;
+}
+.heading-latest{
+	margin-bottom: 30px;
+}
+.blog-txt-on-img{
+	position: absolute;
+	bottom: 15px;
+	left: 10px;
+}
+.blog-main{
+	position: relative;
+}
+.bg-overlay{
+	position: absolute;
+	bottom: 0px;
+	background: #00000070;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.flx-box{
+	
+}
+.read-more-btn-blog{
+	position: absolute;
+	right: 0;
+	display: flex;
+	align-items: center;
+	padding: 6px 25px;
+	border-top-right-radius: 10px;
+}
+.read-more-btn-blog i{
+	margin-left: 5px;
+	font-size: 20px;
+}
+.read-more-btn-blog:hover{
+	text-decoration: none;
+	color: #000;
+}
 
 
 
@@ -228,6 +363,12 @@
 
 }
 @media (max-width:991px) {
+	header .nav-items .nav-item{
+		display: none;
+	}
+	header .nav-items .contact-btn-nav{
+		display: none;
+	}
 	.project-tile-main{
 		margin-top: 60px;
 		position: unset;
@@ -249,13 +390,83 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.project-slider-name {
+    font-size: 24px;
+	}
+	.project-sub-name {
+    font-size: 15px;
+	}
+	.details-project-name{
+		bottom: 25px;
+		left: 25px;
+	}
+	.testimonial-main {
+    display: block;
+	}
+	.right-testimonial {
+    width: 100%;
+	}
+	.left-testimonial {
+    width: 100%;
+    padding: 50px 20px;
+	}
+	.testimonial-txt {
+		text-align: center;
+	}
+	.testimonial-sub-txt {
+		text-align: center;
+	}
+	.product-awards-counts-dv {
+    margin: 30px 0px 40px 0px;
+	}
+	.blog-main {
+    margin-bottom: 25px;
+	}
 }
 @media (max-width:600px) {
 	.tile-project {
     width: 50%;
 		height: 200px;
 	}
+	.nxt-btns {
+    right: 15px;
+	}
+	.prev-btns {
+    left: 73px;
+	}
+	.counts-dv {
+    display: block;
+	}
+	.count-number {
+    text-align: center;
+    font-size: 51px;
+	}
+	.count-sub-txt {
+    font-size: 14px;
+	}
+	.product-sub-txt-explore {
+    font-size: 14px;
+	}
+	.own-txt {
+    font-size: 27px;
+	}
+	.logo-testimonial {
+    width: 50px;
+    padding-bottom: 5px;
+	}
 }
 @media (max-width:450px) {
-
+	.testimonial-txt {
+    font-size: 25px;
+	}
+	.testimonial-sub-txt {
+    font-size: 15px;
+	}
+	.latest-head-txt{
+		font-size: 25px;
+	}
+	.latest-sub-txt {
+    padding-top: 10px;
+		font-size: 14px;
+	}
 }
