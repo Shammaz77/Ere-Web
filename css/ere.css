@@ -331,16 +331,44 @@
 	text-decoration: none;
 	color: #000;
 }
-
-
-
-
-
-
-
-
-
-
+/* about page  */
+.about-us-main-head{
+	margin: 40px 0px 20px 0px;
+}
+.about-us-sub-txt-page{
+	padding-bottom: 20px;
+}
+.about-epower-txt{
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+.about-two-sub-txt{
+	width: 80%;
+	margin: auto;
+}
+.about-single-dv{
+	display: flex;
+	align-items: center;
+	border: 1px solid #AEFB2A;
+	padding: 16px 20px;
+	border-radius: 15px;
+	margin: 0px 10px;
+}
+.three-dv{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.about-single-dv i{
+	padding-right: 10px;
+}
+.about-services-main-dv{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-single-dv i{
+	font-size: 22px;
+}
 
 
 
@@ -472,6 +500,20 @@
 	.blog-main {
     margin-bottom: 25px;
 	}
+	.three-dv {
+    display: block;
+	}
+	.about-single-dv {
+    display: flex;
+    justify-content: center;
+		margin-bottom: 20px;
+	}
+	.three-dv {
+    margin-bottom: 0px;
+	}
+	.about-two-sub-txt {
+    width: 100%;
+	}
 }
 @media (max-width:600px) {
 	.tile-project {
@@ -528,5 +570,15 @@
 	}
 	.box-form-footer {
     margin-top: 15px;
+	}
+	.about-two-sub-txt {
+    font-size: 14px;
+	}
+	.about-us-sub-txt-page {
+    font-size: 16px;
+		padding-bottom: 15px;
+	}
+	.about-epower-txt {
+    font-size: 22px;
 	}
 }

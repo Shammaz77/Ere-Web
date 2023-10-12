@@ -35,49 +35,43 @@ window.addEventListener('load', checkFade); // For the initial check
 
 // });
 
-document.addEventListener("DOMContentLoaded", function () {
-    // Section 1
-    let upto1 = 0;
+// document.addEventListener("DOMContentLoaded", function () {
+//     let upto1 = 0;
 
-    function updated1() {
-        let count = document.getElementById("counter1");
-        count.innerHTML = ++upto1 + "+";
-        if (upto1 === 5) {
-            clearInterval(counts1);
-        }
-    }
+//     function updated1() {
+//         let count = document.getElementById("counter1");
+//         count.innerHTML = ++upto1 + "+";
+//         if (upto1 === 5) {
+//             clearInterval(counts1);
+//         }
+//     }
 
-    // Set the interval for section 1 with a delay of 40 milliseconds
-    let counts1 = setInterval(updated1, 40);
+//     let counts1 = setInterval(updated1, 40);
 
-    // Section 2
-    let upto2 = 0;
+//     let upto2 = 0;
 
-    function updated2() {
-        let count = document.getElementById("counter2");
-        count.innerHTML = ++upto2 + "+";
-        if (upto2 === 100) {
-            clearInterval(counts2);
-        }
-    }
+//     function updated2() {
+//         let count = document.getElementById("counter2");
+//         count.innerHTML = ++upto2 + "+";
+//         if (upto2 === 100) {
+//             clearInterval(counts2);
+//         }
+//     }
 
-    // Set +the interval for section 2 with a delay of 40 milliseconds
-    let counts2 = setInterval(updated2, 40);
+//     let counts2 = setInterval(updated2, 40);
 
-    // Section 3
-    let upto3 = 0;
+//     let upto3 = 0;
 
-    function updated3() {
-        let count = document.getElementById("counter3");
-        count.innerHTML = ++upto3 + "+";
-        if (upto3 === 2) {
-            clearInterval(counts3);
-        }
-    }
+//     function updated3() {
+//         let count = document.getElementById("counter3");
+//         count.innerHTML = ++upto3 + "+";
+//         if (upto3 === 2) {
+//             clearInterval(counts3);
+//         }
+//     }
 
-    // Set the interval for section 3 with a delay of 40 milliseconds
-    let counts3 = setInterval(updated3, 40);
-});
+//     let counts3 = setInterval(updated3, 40);
+// });
 
 
 
