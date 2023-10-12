@@ -342,6 +342,56 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width:2000px) {
 	.container-main{
 		width: 65% !important;
@@ -468,5 +518,15 @@
 	.latest-sub-txt {
     padding-top: 10px;
 		font-size: 14px;
+	}
+	.copy-txtt, .copy-txtt a{
+		font-size: 14px;
+	}
+	footer {
+    background: #fff;
+    padding: 35px 0px 15px 0px;
+	}
+	.box-form-footer {
+    margin-top: 15px;
 	}
 }
