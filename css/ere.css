@@ -407,7 +407,7 @@
 	text-decoration: none !important;
 	color: #000;
 }
-.ub-txt-mission-vission{
+.sub-txt-mission-vission{
 	font-size: 14px;
 }
 .txt-mission-vission{
@@ -416,20 +416,53 @@
 	padding: 5px 20px;
 	width: max-content;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.meet-the-team-main-div{
+	margin-top: 50px;
+}
+.meet-team-main-txt{
+	font-weight: 700;
+}
+.txt-team-txt{
+	width: 70%;
+	margin: auto;
+	padding-top: 15px;
+	font-size: 14px;
+}
+.profile-details{
+	background: #fff;
+	padding: 10px 10px;
+	border-radius: 0px 0px 30px 30px;
+}
+.postion-team{
+	color: #707070;
+	font-size: 13px;
+}
+.name-team{
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+.social-icons-dv i{
+	color: #000;
+	font-size: 23px;
+	margin: 0px 10px;
+}
+.social-icons-dv{
+	width: max-content;
+	margin: auto;
+	padding-top: 5px;
+}
+.meet-profile-dv{
+	margin-bottom: 50px;
+}
+.profile-dv .image-team{
+	border-radius: 30px 30px 0px 0px;
+}
+.meet-team-main-dv{
+	margin-bottom: 50px;
+}
+.social-icons-dv a:hover{
+	text-decoration: none !important;
+}
 
 
 
@@ -566,6 +599,12 @@
 	.about-us-main-head {
     margin: 30px 0px 20px 0px;
 	}
+	.btm-mission{
+		margin-bottom: 20px;
+	}
+	.txt-team-txt {
+    width: 100%;
+	}
 }
 @media (max-width:600px) {
 	.tile-project {
@@ -632,5 +671,11 @@
 	}
 	.about-epower-txt {
     font-size: 22px;
+	}
+	.meet-team-main-txt {
+    font-size: 26px;
+	}
+	.txt-mission-vission {
+    font-size: 15px;
 	}
 }
