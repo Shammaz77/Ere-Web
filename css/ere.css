@@ -369,14 +369,39 @@
 .about-single-dv i{
 	font-size: 22px;
 }
-
-
-
-
-
-
-
-
+.hire-main-dv{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+}
+.img-hire-main{
+	width: 100%;
+}
+.hire-half{
+	width: 50%;
+}
+.our-portfolio-btn{
+	display: flex;
+	align-items: center;
+	width: max-content;
+	padding: 8px 20px !important;
+	border-radius: 20px !important;
+}
+.our-portfolio-btn i{
+	padding-left: 10px;
+}
+.hire-sub-txt{
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.hire-main-txt{
+	padding-bottom: 10px;
+	font-weight: 600;
+	padding-top: 60px;
+}
+.rgt-hire{
+	margin-left: -70px;
+}
 
 
 
