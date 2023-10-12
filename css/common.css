@@ -153,7 +153,11 @@ footer{
   transform: translateY(40px); /* Start with a slight vertical offset */
   transition: opacity 0.9s ease, transform 0.9s ease;
 }
-            
+.fade-out-element{
+	opacity: 0;
+  transform: translateY(40px); /* Start with a slight vertical offset */
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}            
 
 
 
