@@ -463,19 +463,48 @@
 .social-icons-dv a:hover{
 	text-decoration: none !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* portfolio page  */
+.portfolio-grid-main{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px 0px;
+}
+.portfolio-grid-main .tile-project{
+	width: 20%;
+}
+.case-study-txt{
+	font-weight: 600;
+}
+.case-study-main{
+	margin: 20px auto 60px auto;
+}
+.case-sub-txt{
+	padding-top: 20px;
+}
+.study-img{
+	border-radius: 20px;
+}
+.case-study-dv{
+	margin-bottom: 40px;
+}
+.btn-read{
+	padding: 9px 20px !important;
+	border-radius: 20px !important;
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: max-content;
+	font-weight: 600;
+}
+.studies-main-box{
+	position: relative;
+}
+.btn-read:hover{
+	color: #000;
+}
 
 
 
