@@ -725,13 +725,28 @@
 .services-main-img-txt-dv{
 	padding: 50px 0px;
 }
-
-
-
-
-
-
-
+/* products page  */
+.prodcut-img{
+	border-radius: 30px;
+	width: 100%;
+	border-right: 4px solid #AEFB2A;
+	border-bottom: 4px solid #AEFB2A;
+}
+.products-main-dv{
+	margin: 70px auto 70px auto;
+}
+.txt-product-name{
+	padding-bottom: 10px;
+}
+.sub-txt-product{
+	font-size: 16px;
+}
+.txt-product-name{
+	font-size: 28px;
+}
+.own-product-dv{
+	margin-bottom: 100px;
+}
 
 
 
@@ -1117,6 +1132,13 @@
 	.rgt-img-servcs{
 		padding-top: 25px;
 	}
-
-
+	.own-product-dv {
+    margin-bottom: 30px;
+	}
+	.sub-txt-product {
+    font-size: 14px;
+	}
+	.products-main-dv {
+    margin: 50px auto;
+	}
 }
