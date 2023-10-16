@@ -678,6 +678,77 @@
 	font-size: 18px;
 	margin-left: 10px;
 }
+/* services page  */
+.how-help-dv{
+	background: #191919;
+	padding: 80px 0px 80px 0px;
+}
+.txt-help-heading{
+	font-weight: 700;
+	margin-bottom: 45px !important;
+}
+.services-main-boxx{
+	width: 100%;
+	background: #000;
+	padding: 80px 50px 50px 50px;
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.serivce-box{
+	width: 33.3333%;
+	margin-bottom: 60px;
+}
+.img-service{
+	width: 90px;
+	margin: auto;
+	display: table;
+	padding-bottom: 10px;
+}
+.txt-position-name-service{
+	padding-bottom: 10px;
+}
+.txt-sub-postn-name{
+	width: 80%;
+	margin: auto;
+}
+.explore-txt-sub-services{
+	font-size: 14px;
+}
+.service-txt-heading{
+	padding-bottom: 8px;
+	font-weight: 700;
+}
+.srvcs-dv{
+	padding-top: 30px;
+}
+.services-main-img-txt-dv{
+	padding: 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -858,8 +929,12 @@
     font-weight: 600;
     font-size: 22px;
 	}
-
-
+	.txt-sub-postn-name{
+		width: 95%;
+	}
+	.serivce-box{
+		width: 50%;
+	}
 }
 @media (max-width:600px) {
 	.tile-project {
@@ -972,7 +1047,16 @@
 	.txt-job {
     font-size: 24px;
 	}
-
+	.serivce-box{
+		width: 100%;
+	}
+	.txt-sub-postn-name {
+    width: 100%;
+		font-size: 14px;
+	}
+	.img-service {
+    width: 70px;
+	}
 
 }
 @media (max-width:450px) {
@@ -1015,4 +1099,24 @@
 	.txt-mission-vission {
     font-size: 15px;
 	}
+	.services-main-boxx {
+    padding: 50px 30px 50px 30px;
+	}
+	.txt-position-name-service {
+    font-size: 18px;
+	}
+	.serivce-box {
+    margin-bottom: 35px;
+	}
+	.srvcs-dv {
+    padding-top: 0px;
+	}
+	.service-txt-heading {
+    font-size: 28px;
+	}
+	.rgt-img-servcs{
+		padding-top: 25px;
+	}
+
+
 }
