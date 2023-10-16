@@ -501,10 +501,143 @@
 }
 .studies-main-box{
 	position: relative;
+	margin-bottom: 30px;
 }
 .btn-read:hover{
 	color: #000;
 }
+.project-done-box{
+	width: 100%;
+	background: #fff;
+}
+.logo-no-green{
+	width: 250px;
+	margin-left: -100px;
+}
+.project-main-box{
+	margin-bottom: 90px;
+}
+.project-done-box{
+	padding: 60px 20px;
+}
+.contact-us-btn-portfolio{
+	color: #000;
+	padding: 9px 20px !important;
+	border-radius: 20px !important;
+	font-weight: 600;
+	display: table;
+	margin: auto;
+}
+.get-sub-txt-banner{
+	font-size: 14px;
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+.get-txt-banner{
+	padding-bottom: 8px;
+	font-weight: 700;
+}
+/* contact us page  */
+.banner-image{
+	width: 100%;
+}
+.addres-main{
+	margin: 60px 0px 80px 0px;
+}
+.addres-main-txt{
+	padding: 9px 30px;
+	border: 2px solid #fff;
+	width: max-content;
+	font-size: 17px;
+	font-weight: 700;
+	margin-bottom: 15px !important;
+}
+.addres-sub-txt{
+	padding-bottom: 6px;
+}
+.txt-mail:hover{
+	text-decoration: none;
+}
+.left-form{
+	background: #fff;
+	padding: 17% 8%;
+	width: 40% !important;
+	/* position: relative; */
+}
+.box-form-write{
+	width: 100%;
+	display: flex;
+	margin-bottom: 80px;
+}
+.right-form{
+	width: 60%;
+	background: #191919;
+	padding: 50px 60px;
+}
+.write-txt{
+	font-weight: 700;
+}
+.txt-project{
+	font-weight: 500;
+}
+.box-form-write .right-form form .form-control{
+	background: #191919 !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	font-size: 1rem !important;
+	color: #fff !important;
+}
+.right-form form select{
+	width: 100%;
+	background: #191919 !important;
+	padding: 0.375rem 0.75rem !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+	border-radius: 0px !important;
+	font-size: 1rem !important;
+	color: #ffffff !important;
+}
+.right-form form option{
+	/* background: #191919 !important; */
+	color: #495057;
+	font-size: 1rem !important;
+}
+.map-dv:hover{
+	color: #aefb2a;
+	text-decoration: none;
+}
+.submit-btn-contact{
+	color: #000;
+	padding: 10px 40px !important;
+	border-radius: 22px !important;
+	font-weight: 600;
+	display: table;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -535,8 +668,21 @@
 		padding: 250px 0px 350px 0px;
 	}
 }
-@media (max-width:1200px) {
-
+@media (max-width:1230px) {
+	.nav-item {
+    padding: 0px 16px;
+	}
+	.logo-navbar {
+    width: 200px;
+	}
+}
+@media (max-width:1050px) {
+	.nav-item {
+    padding: 0px 12px;
+	}
+	.contact-btn-nav {
+    padding: 9px 20px !important;
+	}
 }
 @media (max-width:991px) {
 	header .nav-items .nav-item{
@@ -634,6 +780,26 @@
 	.txt-team-txt {
     width: 100%;
 	}
+	.portfolio-grid-main .tile-project {
+    width: 25%;
+	}
+	.addres-box{
+		margin-bottom: 25px;
+	}
+	.box-form-write {
+    display: block;
+	}
+	.left-form {
+    padding: 17% 8%;
+    width: 100% !important;
+		margin-bottom: 30px;
+	}
+	.addres-main {
+    margin: 60px 0px 30px 0px;
+	}
+	.right-form {
+    width: 100%;
+	}
 }
 @media (max-width:600px) {
 	.tile-project {
@@ -666,6 +832,77 @@
     width: 50px;
     padding-bottom: 5px;
 	}
+	.portfolio-grid-main .tile-project {
+    width: 50%;
+	}
+	.about-two-sub-txt {
+    font-size: 14px;
+	}
+	.case-study-main .project-name-tile {
+    font-size: 22px;
+	}
+	.portfolio-grid-main {
+    margin: 30px 0px;
+	}
+	.case-study-txt {
+    font-size: 25px;
+	}
+	.case-sub-txt {
+    padding-top: 10px;
+    font-size: 14px;
+	}
+	.case-study-dv {
+    margin-bottom: 35px;
+	}
+	.get-txt-banner {
+    font-size: 26px;
+	}
+	.contact-us-btn-portfolio {
+    font-size: 14px;
+	}
+	.btn-read {
+    font-size: 14px;
+	}
+	.logo-navbar {
+    width: 160px;
+	}
+	header {
+    padding: 30px 0px;
+	}
+	.footer-under-logo-txt {
+    font-size: 14px;
+	}
+	.footer-box-inner ul li .footer-txt {
+    font-size: 14px;
+	}
+	.write-txt {
+    font-weight: 700;
+    font-size: 26px;
+	}
+	.txt-project {
+    font-size: 14px;
+	}
+	.right-form {
+    padding: 40px 30px;
+	}
+	.addres-sub-txt {
+    font-size: 14px;
+	}
+	.text-white {
+    font-size: 14px;
+	}
+	.map-dv{
+    font-size: 14px;
+	}
+	.box-form-write {
+    margin-bottom: 30px;
+	}
+	.footer-logo {
+    width: 160px;
+	}
+
+
+
 }
 @media (max-width:450px) {
 	.testimonial-txt {
