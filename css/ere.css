@@ -1189,6 +1189,19 @@
 	.vedio-main-bg {
     padding: 105px 0px 250px 0px;
 	}
+	.main-txt-heading-home{
+		font-size: 30px;
+	}
+	.txt-detail-home {
+    width: 100%;
+    font-size: 14px;
+	}
+	.expertise-txt {
+    font-size: 29px;
+	}
+	.txt-expertise {
+    font-size: 14px;
+	}
 
 }
 @media (max-width:450px) {
