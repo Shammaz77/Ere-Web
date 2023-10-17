@@ -459,6 +459,22 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 	<script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" ></script>
 	<script>
+		$(document).ready(function(){
+			$('.slider').slick({
+				// Slick Slider settings go here
+				onInit: function(slick){
+					// Get the slick track element
+					var slickTrack = slick.$slider.find('.slick-track');
+					
+					// Remove the class or modify its width
+					slickTrack.removeClass('slick-track'); // This removes the class
+					// Alternatively, you can modify the width
+					// slickTrack.css('width', 'your-custom-width');
+				}
+			});
+		});
+	</script>
+	<script>
 		$(document).ready(function () {
 			$(".slider").slick({
 				infinite: true,
