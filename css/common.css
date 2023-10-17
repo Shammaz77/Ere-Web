@@ -133,11 +133,50 @@ footer{
 
 
 
-
-
-
-
-
+.btn-upload-career {
+  padding: 40px 20px !important;
+  display: flex !important;
+  width: 100%;
+  border-radius: 10px !important;
+  background: #191919;
+  border: 2px solid #AEFB2A !important;
+  align-items: center !important;
+  justify-content: center !important;
+	color: #fff;
+}
+.txt-upload {
+	color: #ffffff;
+	padding-left: 20px;
+}
+.upload-icon {
+	font-size: 25px;
+}
+.login-modal-home-p{
+	padding: 20px;
+}
+.send-resume{
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.form-dv-career .form-control{
+	background: #191919 !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	font-size: 1rem !important;
+	color: #fff !important;
+}
+.apply-btn-career{
+	color: #000 !important;
+  font-weight: 600;
+  padding: 9px 35px !important;
+  border-radius: 25px;
+	margin: auto;
+	width: max-content;
+	display: table;
+}
 
 
 

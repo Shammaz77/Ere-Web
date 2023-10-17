@@ -720,7 +720,8 @@
 	font-weight: 700;
 }
 .srvcs-dv{
-	padding-top: 30px;
+	margin-left: 0;
+  margin-right: auto;
 }
 .services-main-img-txt-dv{
 	padding: 50px 0px;
@@ -747,31 +748,120 @@
 .own-product-dv{
 	margin-bottom: 100px;
 }
+/* career page  */
+.life-at-ere{
+	background: #191919;
+	padding: 20px 0px;
+}
+.txt-ere{
+	font-weight: 700;
+}
+.txt-bond{
+	font-size: 14px;
+}
+.gal-main-img{
+	width: 50%;
+	margin: auto;
+	display: table;
+}
+.ere-gal-box{
+	display: flex;
+  align-items: center;
+  height: 100%;
+}
+.top-gal{	
+	margin-left: 0;
+  margin-right: auto;
+	width: 100%;
+}
+.job-mainn{
+	margin: 80px auto 0px auto; 
+}
+.job-txt-main-head{
+	font-weight: 700;
+	padding-bottom: 13px;
+}
+.job-txt-main-head span{
+	font-size: unset;
+	color: #aefb2a;
+}
+.txt-sub-job{
+	padding-top: 15px;
+	font-size: 15px;
+}
+.box-mains{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.job-box{
+	padding: 25px 20px;
+	margin-bottom: 25px;
+}
+.top-box{
+	padding-top: 130px;
+}
+.time-box{
+	font-size: 15px;
+	border: 1px solid #fff;
+	padding: 14px 30px;
+	border-radius: 8px;
+}
+.applied-txt{
+	font-size: 16px;
+}
+.applied-txt i{
+	margin-right: 5px;
+	font-size: 19px;
+}
+.postn-name-job{
+	font-size: 19px;
+	padding-bottom: 7px;
+}
+.aply-btn-career{
+	color: #000 !important;
+	font-weight: 600;
+	padding: 9px 30px !important;
+	border-radius: 20px;
+}
+.txt-sub-jobs{
+	font-size: 15px;
+	margin-bottom: 25px !important;
+}
+.top-space-upload{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.tab-career a:hover{
+	text-decoration: none;
+	font-size: 19px;
+}
+.tab-career a{
+	font-size: 19px;
+	color: #959595;
+	padding-bottom: 14px;
+}
+.tab-career li{
+	padding: 0px 40px;
+}
+.tab-career .active{
+	border-bottom: 3px solid #AEFB2A;
+	color: #fff;
+}
+.tab-content{
+	margin-top: 50px;
+}
+.tab-career {
+	width: max-content;
+	padding: 12px 0px;
+	margin: auto;
+}
+.service-banner-home-dv{
+	display: flex;
+  align-items: center;
+  height: 100%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -950,6 +1040,15 @@
 	.serivce-box{
 		width: 50%;
 	}
+	.txt-ere {
+    text-align: center;
+	}
+	.txt-bond {
+    text-align: center;
+	}
+	.ere-gal-box {
+    padding-bottom: 30px;
+	}
 }
 @media (max-width:600px) {
 	.tile-project {
@@ -1072,6 +1171,21 @@
 	.img-service {
     width: 70px;
 	}
+	.gal-main-img {
+    width: 80%;
+	}
+	.txt-ere {
+    font-size: 29px;
+		font-weight: 600;
+	}
+	.job-txt-main-head {
+    font-weight: 700;
+    font-size: 29px;
+		padding-bottom: 8px;
+	}
+	.txt-sub-jobs {
+    font-size: 14px;
+	}
 
 }
 @media (max-width:450px) {
@@ -1140,5 +1254,26 @@
 	}
 	.products-main-dv {
     margin: 50px auto;
+	}
+	.time-box {
+    font-size: 14px;
+    padding: 13px 19px;
+		margin-left: 5px;
+	}
+	.postn-name-job {
+    font-size: 17px;
+	}
+	.job-descc-j{
+		font-size: 14px;
+	}
+	.aply-btn-career {
+    padding: 8px 28px !important;
+    font-size: 14px;
+	}
+	.applied-txt {
+    font-size: 14px;
+	}
+	.login-modal-home-p {
+    padding: 10px;
 	}
 }
