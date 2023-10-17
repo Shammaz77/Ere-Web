@@ -313,16 +313,27 @@
 						<h5 class="testimonial-sub-txt mb-0 text-white">that Matter</h5>
 					</div>
 				</div>
-				<div class="right-testimonial">
-					<img class="logo-testimonial" src="./Images/F-LOGO-NEW-05 1.png" alt="">
-					<p class="testimonial-content mb-0 text-center">“Great team, loved thier dedication!”</p>
+				<div class="right-testimonial testimonial" id="testimonial1">
+					<img class="logo-testimonial" src="./Images/ERE_LOGO_BLACK (2) 1.png" alt="">
+					<p class="testimonial-content mb-0 text-center">“Great team, loved their dedication!”</p>
 					<div class="details-testi-content">
-						<h6 class="mb-0 testi-name text-center">Sreejith</h6>
-						<p class="mb-0 testi-details text-center">CEO, Fluck Payment Solutions</p>
+							<h6 class="mb-0 testi-name text-center">Sreejith</h6>
+							<p class="mb-0 testi-details text-center">CEO, Fluck Payment Solutions</p>
 					</div>
-					<i class="ri-arrow-left-s-line"></i>
-					<i class="ri-arrow-right-s-line"></i>
-				</div>
+					<i class="ri-arrow-left-s-line" id="prevBtn" onclick="changeTestimonial(-1)"></i>
+					<i class="ri-arrow-right-s-line" id="nextBtn" onclick="changeTestimonial(1)"></i>
+				</div>	
+				<div class="right-testimonial testimonial" id="testimonial2">
+					<img class="logo-testimonial" src="./Images/ERE_LOGO_BLACK (2) 1.png" alt="">
+					<p class="testimonial-content mb-0 text-center">“Good Work”</p>
+					<div class="details-testi-content">
+							<h6 class="mb-0 testi-name text-center">Shammas</h6>
+							<p class="mb-0 testi-details text-center">ABCD</p>
+					</div>
+					<i class="ri-arrow-left-s-line" id="prevBtn" onclick="changeTestimonial(-1)"></i>
+					<i class="ri-arrow-right-s-line" id="nextBtn" onclick="changeTestimonial(1)"></i>
+				</div>	
+			
 			</div>
 		</div>
 	</div>
@@ -435,6 +446,35 @@
 
 
 
+<script>
+	let currentTestimonial = 1;
+
+function showTestimonial(n) {
+    const testimonials = document.querySelectorAll('.testimonial');
+    
+    if (n > testimonials.length) {
+        currentTestimonial = 1;
+    }
+    if (n < 1) {
+        currentTestimonial = testimonials.length;
+    }
+
+    testimonials.forEach(testimonial => {
+        testimonial.style.display = 'none';
+    });
+
+    testimonials[currentTestimonial - 1].style.display = 'block';
+}
+
+function changeTestimonial(n) {
+    currentTestimonial += n;
+    showTestimonial(currentTestimonial);
+}
+
+// Show the first testimonial when the page loads
+showTestimonial(currentTestimonial);
+
+</script>
 
 
 
@@ -445,9 +485,48 @@
 
 
 
+<script>
+	
 
+document.addEventListener("DOMContentLoaded", function () {
+    let upto1 = 0;
 
+    function updated1() {
+        let count = document.getElementById("counter1");
+        count.innerHTML = ++upto1 + "+";
+        if (upto1 === 5) {
+            clearInterval(counts1);
+        }
+    }
 
+    let counts1 = setInterval(updated1, 40);
+
+    let upto2 = 0;
+
+    function updated2() {
+        let count = document.getElementById("counter2");
+        count.innerHTML = ++upto2 + "+";
+        if (upto2 === 100) {
+            clearInterval(counts2);
+        }
+    }
+
+    let counts2 = setInterval(updated2, 40);
+
+    let upto3 = 0;
+
+    function updated3() {
+        let count = document.getElementById("counter3");
+        count.innerHTML = ++upto3 + "+";
+        if (upto3 === 2) {
+            clearInterval(counts3);
+        }
+    }
+
+    let counts3 = setInterval(updated3, 40);
+});
+
+</script>
 
 
 

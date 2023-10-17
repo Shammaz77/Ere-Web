@@ -200,18 +200,17 @@ footer{
 
 
 
+.ri-arrow-left-s-line,
+.ri-arrow-right-s-line {
+		cursor: pointer;
+}
 
 
 
 
-
-
-
-
-
-
-
-
+.testimonial {
+	display: none;
+}
 
 
 
