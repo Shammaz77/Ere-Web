@@ -190,37 +190,26 @@ footer{
 	right: 20px;
 	color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
+.contact-btn-footer{
+	font-weight: 600;
+	color: #000;
+	padding: 9px 30px !important;
+	border-radius: 20px;
+	display: table;
+	margin: auto;
+	background: #fff;
+}
+.contact-btn-footer:hover{
+	background: #fff;
+	color: #000;
+}
 .ri-arrow-left-s-line,
 .ri-arrow-right-s-line {
 		cursor: pointer;
 }
-
-
-
-
 .testimonial {
 	display: none;
 }
-
-
-
-
-
-
-
-
-
-
 .btn-upload-career {
   padding: 40px 20px !important;
   display: flex !important;
@@ -265,14 +254,6 @@ footer{
 	width: max-content;
 	display: table;
 }
-
-
-
-
-
-
-
-
 /* fade in animation  */
 .fade-in-element {
   opacity: 0;
@@ -282,74 +263,3 @@ footer{
 .menulogo i{
 	font-size: 22px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

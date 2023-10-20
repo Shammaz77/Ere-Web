@@ -22,9 +22,9 @@
 				<ul class="mb-0">
 					<li class="nav-item "><a href="./index.html">Home</a></li>
 					<li class="nav-item "><a href="./about.html">About Us</a></li>
-					<li class="nav-item"><a href="">What we do</a></li>
+					<li class="nav-item"><a href="./services.html">What we do</a></li>
 					<li class="nav-item"><a href="./portfolio.html" >Portfolio</a></li>
-					<li class="nav-item"><a href="">Careers</a></li>
+					<li class="nav-item"><a href="./career.html">Careers</a></li>
 					<li class="nav-item"><a href="">Blog</a></li>
 					<a href="./contact.html" class="btn contact-btn-nav primary-bg">Contact Us</a>
 					<div class="menulogo d-md-block d-lg-none" onclick="toggleCartt()"><i class="ri-menu-2-line text-white"></i></div>
@@ -82,7 +82,7 @@
 								<li class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, quaerat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, quaeratLorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, quaeratLorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, quaerat</li>
 							</ol>
 						</div>
-						<a href="#" class="btn primary-bg apply-btn-job mt-5">Apply <i class="ri-arrow-right-circle-fill"></i></a>
+						<a href="" class="btn primary-bg apply-btn-job mt-5" data-toggle="modal" data-target="#loginModal">Apply <i class="ri-arrow-right-circle-fill"></i></a>
 					</div>
 				</div>
 			</div>
@@ -150,7 +150,42 @@
 
 
 
-
+	<!-- modal form apply  -->
+	<div style="z-index: 1200;"  class="modal fade modal-home p-0" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" style="padding: 0px;" role="document">
+			<div style="background: #191919;width: 100%;border-radius: 0px;margin: auto;" class="modal-content login-modal-home-p">
+				<!-- <i class="ri-close-circle-line close close-icon-career" data-dismiss="modal" aria-label="Close"></i> -->
+				<div class="modal-body modal-loginform pt-0">
+					<h5 class="text-center send-resume mb-0 text-white">SEND YOUR RESUME HERE</h5>
+					<div class="form-dv-career">
+						<form action="">
+							<div class="form-group">
+								<input type="email" class="form-control text-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control text-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control text-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+							</div>
+							<div class="mb-3 top-space-upload">
+								<!-- Hidden file input -->
+								<input type="file" id="fileInput" style="display: none;" />
+								<!-- Button to trigger file upload -->
+								<button id="uploadButton" class="btn btn-upload-career">
+									<i class="ri-file-upload-line upload-icon"></i>
+									<p class="mb-0 txt-upload">Upload your Resume here</p>
+								</button>
+								<!-- Display the selected file name -->
+								<div id="fileName"></div>
+							</div>
+							<a href="" type="Submit" class="btn primary-bg apply-btn-career" >Apply</a>
+						</form>
+					</div>
+				</div>
+			</div>                                    
+		</div>              
+	</div>
 
 
 
@@ -167,7 +202,7 @@
 				<div class="col-lg-4">
 					<div class="footer-box-inner">
 						<a href="#">
-							<img src="/Images/ERE_LOGO_BLACK (2) 1.png" class="footer-logo" alt="">
+							<img src="./Images/ERE_LOGO_BLACK (2) 1.png" class="footer-logo" alt="">
 						</a>
 						<p></p>
 						<p class="mb-0 footer-under-logo-txt">ERE Business Solution is an innovative software solution for businesses to gain global market</p>
@@ -205,10 +240,11 @@
 								<div class="form-group">
 									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
 								</div>
-								<div class="form-group mt-5">
+								<div class="form-group mt-5 mb-4">
 									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Project/Concern">
 								</div>
 							</form>
+							<a href="#" class="btn contact-btn-footer">Contact</a>
 						</div>
 					</div>
 				</div>
